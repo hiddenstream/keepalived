@@ -32,7 +32,7 @@ BuildRequires: autoconf automake pkgconfig
 
 @SNMP_TRUE@Requires: net-snmp
 @WITH_DBUS_TRUE@Requires: glib2
-@LIBIPTC_TRUE@Requires: iptables-libs
+#@LIBIPTC_TRUE@Requires: iptables-libs
 @LIBIPSET_TRUE@Requires: ipset-libs
 @LIBNL1_TRUE@Requires: libnl
 @LIBNL3_TRUE@Requires: libnl3
